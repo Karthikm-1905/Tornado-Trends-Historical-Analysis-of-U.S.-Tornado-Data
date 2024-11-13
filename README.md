@@ -18,7 +18,7 @@ Prerequisites:
 
 Installation:
 Clone the repository:
-git clone https://github.com/yourusername/tornado-data-exploration.git
+git clone: https://github.com/Karthikm-1905/Tornado-Trends-Historical-Analysis-of-U.S.-Tornado-Data.git
 
 Install the required libraries:
 1. Copy code
