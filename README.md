@@ -1,44 +1,58 @@
-# Tornado-Trends-Historical-Analysis-of-U.S.-Tornado-Data
-This project performs an in-depth analysis of historical tornado data (from 1950 to 2019) using Python libraries like Pandas and Matplotlib. The project investigates various trends and statistics related to tornado occurrences in the United States, including annual frequency, monthly trends, state distributions, tornado intensity, and more.
+#Tornado Data Exploration and Analysis
+This project involves a comprehensive analysis of historical tornado data (1950–2019) using Python and R. Through data exploration and visualization, it uncovers trends and insights in tornado occurrences, magnitudes, and impacts across the United States.
 
-Project Overview
-The analysis includes:    
+Project Overview:  
+The project is divided into two main parts:
+
+#Python Analysis:
 1. Annual Tornado Count: Counts of tornadoes per year.
 2. Monthly Tornado Trends: Identification of the month with the highest tornado occurrences.
 3. Statewise Tornado Distribution: States with the highest frequency of tornadoes.
 4. Severe Tornado Analysis: Analysis of F4 tornado occurrences by state.
 5. Relationship Between Tornado Length and Width: Scatter plot to observe possible correlations.
-6. Time-of-Day Analysis: Common times for tornado occurrences.    
+6. Time-of-Day Analysis: Common times for tornado occurrences.
 
-Getting Started:
-Prerequisites:
-1. Python 3.x
-2. Pandas
-3. Matplotlib
+#R Analysis:
+1. Data Summary: Summary statistics and boxplots for tornado length and width.
+2. Injury and Fatality Statistics by Magnitude: Crosstab of average injuries and fatalities per tornado magnitude.
+3. Loss by Magnitude: Visual representation of losses by tornado magnitude.
+4. State Analysis: Identification of states with the highest injuries (Texas, Alabama, Oklahoma) and fatalities (Alabama, Texas, Mississippi).
+5. Trends Over Time: Examination of the overall trend in tornado occurrences from 1950 through 2019.
 
-Installation:
-Clone the repository:
-git clone: https://github.com/Karthikm-1905/Tornado-Trends-Historical-Analysis-of-U.S.-Tornado-Data.git
+#Getting Started
+Prerequisites
+Python: Python 3.x, Pandas, Matplotlib
+R: R and required libraries for data visualization
 
-Install the required libraries:
-1. Copy code
-2. pip install pandas matplotlib
+#Installation
 
-Usage:
-1. Load the provided dataset (1950-2019_actual_tornadoes.csv) into the project directory.
-2. Run the analysis script to generate plots and insights:
+1. Clone the repository:
+git clone https://github.com/yourusername/tornado-data-exploration.git
 
+2. Install Python requirements:
+pip install pandas matplotlib
+
+3. Ensure you have R installed and the required libraries.
+
+#Usage
+Load the dataset (1950-2019_actual_tornadoes.csv) into the project directory.
+For Python Analysis, run the following:
 python tornado_analysis.py
+For R Analysis, open the R script (tornado_analysis.R) and execute it in an R environment.
 
-Results:
-The project outputs several visualizations to help interpret tornado trends and answer questions such as:
-1. How has tornado frequency changed over time?
-2. Which months and states are most affected.
-3. The relationship between tornado dimensions (length and width).
-4. The common times of day for tornado occurrences.
+#Results-
 
-Contributing:
+The project produces various plots and tables, including:
+1. Tornado frequency over time, by month, and by state.
+2. Analysis of tornado magnitude impacts (injuries, fatalities, financial loss).
+3. Trends in tornado dimensions (length and width) and common times for occurrences.
+
+#Final Report-
+The final report in PDF format, including detailed explanations, visualizations, and insights from both Python and R analyses, is available in the repository.
+
+a3Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-License-
+#License
 This project is licensed under the MIT License.
+
