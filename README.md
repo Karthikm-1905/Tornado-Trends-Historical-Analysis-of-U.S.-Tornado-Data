@@ -26,7 +26,7 @@ R: R and required libraries for data visualization
 
 # Installation-
 1. Clone the repository:
-git clone https://github.com/yourusername/tornado-data-exploration.git
+git clone [https://github.com/yourusername/tornado-data-exploration.git](https://github.com/Karthikm-1905/Tornado-Trends-Historical-Analysis-of-U.S.-Tornado-Data.git)
 
 2. Install Python requirements:
 pip install pandas matplotlib
